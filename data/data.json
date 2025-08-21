@@ -1,0 +1,34 @@
+{
+  "skills": [
+    { "name": "SaaS UX", "weight": 12, "aliases": ["saas","subscription","multi-tenant"] },
+    { "name": "Data-driven design", "weight": 12, "aliases": ["data driven","analytics","experimentation","metrics","kpi"] },
+    { "name": "Prototyping", "weight": 9, "aliases": ["prototype","prototyping","figma prototype","interactive"] },
+    { "name": "Stakeholder workshops", "weight": 9, "aliases": ["workshop","stakeholder","alignment","co-creation"] },
+    { "name": "Design Systems", "weight": 11, "aliases": ["design system","tokens","storybook","component library"] },
+    { "name": "B2B UX", "weight": 8, "aliases": ["b2b","enterprise","admin portal"] },
+    { "name": "B2C UX", "weight": 8, "aliases": ["b2c","consumer app","checkout","onboarding"] },
+    { "name": "Research", "weight": 8, "aliases": ["user research","interviews","usability","jtbd","jobs to be done"] },
+    { "name": "Experimentation / Growth", "weight": 10, "aliases": ["ab test","a/b","experimentation","growth","activation","retention"] },
+    { "name": "Leadership", "weight": 9, "aliases": ["lead","manager","leadership","mentoring","governance"] }
+  ],
+  "projects": [
+    {
+      "title": "Design System & UX Leadership",
+      "client": "Vodafone",
+      "summary": "Lideré UX transversal; tokens, governance, KPIs de producto.",
+      "skills": ["Design Systems","Leadership","Data-driven design"]
+    },
+    {
+      "title": "Checkout Conversion Uplift",
+      "client": "Zara",
+      "summary": "+8.3% CVR con experimentación y prototipado rápido.",
+      "skills": ["B2C UX","Experimentation / Growth","Prototyping"]
+    },
+    {
+      "title": "Onboarding Data‑driven",
+      "client": "Gestamp",
+      "summary": "Onboarding simplificado; +23% activación con JTBD + guidance.",
+      "skills": ["Research","B2B UX","Data-driven design"]
+    }
+    ]
+}
