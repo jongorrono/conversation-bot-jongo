@@ -7,7 +7,11 @@
 
 body {
     font-family: 'IBM Plex Mono', monospace;
-    background: linear-gradient(135deg, #1e3a8a 0%, #000467 100%);
+    background: 
+        radial-gradient(circle at 20% 80%, rgba(59, 130, 246, 0.3) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(34, 211, 238, 0.2) 0%, transparent 50%),
+        radial-gradient(circle at 0% 0%, rgba(99, 102, 241, 0.15) 0%, transparent 50%),
+        linear-gradient(135deg, #0f172a 0%, #1e293b 25%, #0f172a 50%, #1e1b4b 75%, #0f172a 100%);
     color: white;
     min-height: 100vh;
     overflow-x: hidden;
@@ -232,6 +236,223 @@ body {
     }
 }
 
+/* Role Fit Analysis Styles */
+.role-fit-analysis {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.excellent-match-box {
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    border-radius: 20px;
+    padding: 24px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 8px 32px rgba(16, 185, 129, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Color variations based on fit score */
+.excellent-match-box.low-fit {
+    background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+    box-shadow: 0 8px 32px rgba(239, 68, 68, 0.3);
+}
+
+.excellent-match-box.partial-fit {
+    background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+    box-shadow: 0 8px 32px rgba(245, 158, 11, 0.3);
+}
+
+.excellent-match-box.good-fit {
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    box-shadow: 0 8px 32px rgba(16, 185, 129, 0.3);
+}
+
+.match-info {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.checkmark-icon {
+    background: white;
+    color: #10b981;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0;
+    min-width: 40px;
+    min-height: 40px;
+}
+
+.match-text {
+    color: white;
+}
+
+.match-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.match-subtitle {
+    font-size: 0.95rem;
+    opacity: 0.9;
+    line-height: 1.4;
+}
+
+.match-percentage {
+    font-size: 3rem;
+    font-weight: 800;
+    color: white;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profile-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    gap: 30px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+.profile-photo {
+    flex-shrink: 0;
+}
+
+.profile-image {
+    width: 120px;
+    height: 100%;
+    min-height: 200px;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+}
+
+.profile-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.profile-section {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.section-label {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.7);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.section-content {
+    font-size: 0.95rem;
+    color: white;
+    line-height: 1.5;
+    font-weight: 500;
+    padding-bottom: 24px;
+}
+
+.ai-analysis-note {
+    text-align: center;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 20px;
+    padding: 16px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Responsive Design for Role Fit Analysis */
+@media (max-width: 768px) {
+    .excellent-match-box {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .match-percentage {
+        font-size: 2.5rem;
+    }
+    
+    .profile-card {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+    
+    .profile-image {
+        width: 100px;
+        height: 100%;
+        min-height: 150px;
+        margin: 0 auto;
+    }
+    
+    .profile-details {
+        gap: 20px;
+    }
+    
+    .section-content {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .excellent-match-box {
+        padding: 16px;
+        margin-bottom: 20px;
+    }
+    
+    .match-title {
+        font-size: 1.3rem;
+    }
+    
+    .match-subtitle {
+        font-size: 0.9rem;
+    }
+    
+    .match-percentage {
+        font-size: 2rem;
+    }
+    
+    .profile-card {
+        padding: 16px;
+    }
+    
+    .profile-image {
+        width: 80px;
+        height: 100%;
+        min-height: 120px;
+    }
+    
+    .section-label {
+        font-size: 0.75rem;
+    }
+    
+    .section-content {
+        font-size: 0.85rem;
+    }
+}
+
 /* Projects Section Styles */
 .projects-section {
     width: 100%;
@@ -346,6 +567,10 @@ body {
     line-height: 1.6;
     margin-bottom: 15px;
     font-size: 0.95rem;
+}
+
+.project-section {
+    padding-bottom: 8px;
 }
 
 .project-impact {
@@ -757,6 +982,35 @@ body {
     .projects-title {
         font-size: 1.3rem;
     }
+    
+    /* Toast message responsive adjustments */
+    .toast-message {
+        padding: 20px;
+        min-height: 80px;
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+    
+    .toast-icon {
+        font-size: 2rem;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    
+    .toast-title {
+        font-size: 1.4rem;
+    }
+    
+    .toast-subtitle {
+        font-size: 0.9rem;
+    }
+    
+    .toast-percentage {
+        font-size: 2.5rem;
+        margin-left: 0;
+        margin-top: 10px;
+    }
 }
 
 /* Responsive Design */
@@ -852,6 +1106,29 @@ body {
     .card {
         padding: 20px 15px;
     }
+    
+    /* Toast message mobile adjustments */
+    .toast-message {
+        padding: 16px;
+        min-height: 70px;
+        gap: 12px;
+    }
+    
+    .toast-icon {
+        font-size: 1.8rem;
+    }
+    
+    .toast-title {
+        font-size: 1.2rem;
+    }
+    
+    .toast-subtitle {
+        font-size: 0.85rem;
+    }
+    
+    .toast-percentage {
+        font-size: 2rem;
+    }
 }
 
 /* Scrollbar Styling */
@@ -945,4 +1222,159 @@ body {
     padding: 8px 12px;
     margin-bottom: 15px;
     color: rgba(255, 255, 255, 0.9);
+}
+
+/* Company Fit Prompt Styles */
+.company-fit-prompt {
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    padding: 24px;
+    text-align: left;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+.prompt-text {
+    color: white;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-style: normal;
+    font-family: inherit;
+}
+
+/* Toast Message Styles */
+.toast-message {
+    border-radius: 20px;
+    padding: 8px 24px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: none;
+    border: 0px;
+    min-height: 72px;
+    animation: toastSlideIn 0.6s ease-out;
+    position: relative;
+    overflow: hidden;
+}
+
+.toast-message::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, transparent 0%, rgba(255, 255, 255, 0.1) 50%, transparent 100%);
+    animation: toastShine 2s ease-in-out infinite;
+}
+
+.toast-icon {
+    font-size: 2.5rem;
+    margin-right: 20px;
+    flex-shrink: 0;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    animation: iconPulse 2s ease-in-out infinite;
+}
+
+.toast-content {
+    flex: 1;
+    color: white;
+    z-index: 1;
+    position: relative;
+}
+
+.toast-title {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+    line-height: 1;
+    margin-bottom: 6px;
+    color: white;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.toast-subtitle {
+    font-size: 1rem;
+    opacity: 0.95;
+    line-height: 1.4;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.toast-percentage {
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: white;
+    text-shadow: 0 3px 12px rgba(0, 0, 0, 0.4);
+    flex-shrink: 0;
+    margin-left: 20px;
+    z-index: 1;
+    position: relative;
+}
+
+@keyframes toastSlideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-30px) scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+@keyframes toastShine {
+    0%, 100% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    50% {
+        opacity: 0.3;
+        transform: translateX(100%);
+    }
+}
+
+@keyframes iconPulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+/* Toast Color Variations */
+.toast-message.excellent-fit {
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    box-shadow: none;
+}
+
+.toast-message.good-fit {
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+    box-shadow: none;
+}
+
+.toast-message.partial-fit {
+    background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+    box-shadow: none;
+}
+
+.toast-message.low-fit {
+    background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+    box-shadow: none;
+}
+
+/* Justification Text Styles */
+.justification-text {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    padding: 24px;
+    color: white;
+    line-height: 1.6;
+    font-size: 0.95rem;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
 }

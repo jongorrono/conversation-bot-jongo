@@ -1,0 +1,209 @@
+[
+  {
+    "intent_key": "sector_saas",
+    "question_en": "What experience does Jon have in SaaS?",
+    "question_es": "¿Qué experiencia tiene Jon en SaaS?",
+    "answer": "Jon has extensive experience in SaaS projects across multiple sectors. He's worked on O21 (e-health platform for orthodontists), Wefender (cybersecurity platform), Tacktics (construction project management), and other SaaS solutions. His expertise includes user research, product architecture, design systems, and user testing. Jon has delivered measurable results like +75% consultation efficiency for O21 and +45% user adoption for Wefender. He understands both B2B and B2C SaaS models, having worked with startups and enterprise clients.",
+    "related_projects": ["o21-ehealth", "wefender-cybersecurity", "tacktics-construction"],
+    "key_metrics": ["+75% consultation efficiency", "+45% user adoption", "+35% project efficiency"],
+    "industries": ["healthcare", "cybersecurity", "construction", "startup", "enterprise"]
+  },
+  {
+    "intent_key": "sector_fintech",
+    "question_en": "Has Jon worked in fintech?",
+    "question_es": "¿Ha trabajado Jon en fintech?",
+    "answer": "Yes, Jon has fintech experience working with La Caixa, one of Spain's largest banks. He redesigned their digital banking platform focusing on usability, accessibility, and modern design patterns. The project improved digital banking adoption by 25%, increased customer satisfaction from 3.2 to 4.1/5, and reduced support calls by 30%. Jon's fintech work demonstrates his ability to handle complex financial workflows while maintaining security standards and accessibility compliance.",
+    "related_projects": ["la-caixa-fintech"],
+    "key_metrics": ["+25% digital banking adoption", "3.2 to 4.1/5 satisfaction", "-30% support calls"],
+    "industries": ["banking", "financial-services", "enterprise"]
+  },
+  {
+    "intent_key": "sector_ecommerce",
+    "question_en": "Does Jon have experience in e-commerce?",
+    "question_es": "¿Tiene Jon experiencia en e-commerce?",
+    "answer": "Yes, Jon has significant e-commerce experience, particularly in fashion retail. He worked on mobile shopping experiences for Inditex brands, including Pull&Bear where he redesigned navigation and checkout flows. The project achieved +27% increase in completed purchases and improved mobile conversion rates. Jon understands mobile-first design, user journey optimization, and conversion rate optimization for e-commerce platforms. His experience spans both B2C retail and B2B e-commerce solutions.",
+    "related_projects": ["pull-bear-inditex", "oysho-inditex"],
+    "key_metrics": ["+27% completed purchases", "+40% mobile sales", "+50% user engagement"],
+    "industries": ["fashion-retail", "e-commerce", "mobile-commerce", "enterprise"]
+  },
+  {
+    "intent_key": "sector_fashion_retail",
+    "question_en": "What experience does Jon have in fashion and retail?",
+    "question_es": "¿Qué experiencia tiene Jon en moda y retail?",
+    "answer": "Jon has solid experience in fashion and retail, particularly with Inditex brands like ZARA and Pull&Bear. At ZARA, he led the redesign of internal tools for the engineering community, improving adoption and daily use among developers. For Pull&Bear, he redesigned the mobile shopping experience, achieving +40% mobile sales and +50% user engagement. Jon understands both consumer-facing retail experiences and internal enterprise tools, having worked on design systems and collaboration platforms for large fashion corporations.",
+    "related_projects": ["zara-fashion", "pull-bear-inditex", "oysho-inditex"],
+    "key_metrics": ["+40% mobile sales", "+50% user engagement", "Improved team adoption"],
+    "industries": ["fashion-retail", "enterprise", "mobile-commerce", "design-systems"]
+  },
+  {
+    "intent_key": "sector_education",
+    "question_en": "Which of Jon's projects fit with digital education?",
+    "question_es": "¿Qué proyectos de Jon se ajustan a la educación digital?",
+    "answer": "Jon worked as a UX Designer for the University of San Jorge, improving their digital experience and user interface for educational platforms. He conducted user research to understand different user roles (students, professors, researchers, alumni), built the university's information architecture, and designed testable prototypes. The project improved enrollment rates by 37% and increased overall website usage by 32%. Jon's education experience demonstrates his ability to design for diverse user groups and complex academic workflows.",
+    "related_projects": ["san-jorge-university"],
+    "key_metrics": ["+37% enrollment rate", "+32% website usage"],
+    "industries": ["education", "higher-education", "digital-learning", "public-sector"]
+  },
+  {
+    "intent_key": "sector_mobility_automotive",
+    "question_en": "Has Jon worked in mobility or automotive?",
+    "question_es": "¿Ha trabajado Jon en movilidad o automoción?",
+    "answer": "Yes, Jon has experience in both mobility and automotive sectors. He worked on Evcharge (electric mobility platform) where he improved the digital experience for 400K users, achieving +39% charge completion rate and +43% activation rate. At Gestamp, he designed manufacturing process management platforms for automotive production, improving process efficiency by 28% and reducing training time by 40%. Jon understands both consumer mobility apps and industrial automotive processes, having worked with field workers and factory environments.",
+    "related_projects": ["evcharge", "gestamp-automotive"],
+    "key_metrics": ["+39% charge completion", "+43% activation rate", "+28% process efficiency", "-40% training time"],
+    "industries": ["electric-mobility", "automotive", "manufacturing", "industrial"]
+  },
+  {
+    "intent_key": "seniority_team_leadership",
+    "question_en": "Has Jon led projects or guided teams, or is his experience mainly as an individual contributor?",
+    "question_es": "¿Ha liderado Jon proyectos o guiado equipos, o su experiencia es principalmente como contribuidor individual?",
+    "answer": "Jon has demonstrated team leadership across multiple projects. At ZARA, he managed a multidisciplinary squad of Design, Development, and Content teams, delivering value every two weeks through agile processes. For O21, he led the complete project as Senior Product Designer & Project Lead, overseeing research, architecture, UI design, and management. Jon has experience guiding teams of 5-12 people, collaborating with developers, PMs, and stakeholders. His leadership style focuses on collaborative design, user-centered processes, and measurable outcomes.",
+    "related_projects": ["zara-fashion", "o21-ehealth"],
+    "key_metrics": ["Led teams of 5-12 people", "Bi-weekly delivery cycles", "Multidisciplinary collaboration"],
+    "industries": ["enterprise", "healthcare", "fashion-retail", "startup"]
+  },
+  {
+    "intent_key": "seniority_design_systems",
+    "question_en": "Does Jon have experience building or managing design systems?",
+    "question_es": "¿Tiene Jon experiencia construyendo o gestionando sistemas de diseño?",
+    "answer": "Yes, Jon has extensive experience with design systems. At ZARA, he led the redesign of internal tools and design systems for the engineering community, improving adoption and collaboration efficiency. For Veridata, he created and managed a comprehensive design system for government digital services, including component libraries, design tokens, and documentation. The system reduced development time by 40% and achieved 90% adoption across 15+ government services. Jon understands both enterprise design systems and startup design processes, having implemented scalable design solutions across various industries.",
+    "related_projects": ["zara-fashion", "veridata-design-system"],
+    "key_metrics": ["-40% development time", "90% design system adoption", "15+ government services"],
+    "industries": ["enterprise", "government", "fashion-retail", "design-systems"]
+  },
+  {
+    "intent_key": "seniority_international",
+    "question_en": "Why could Jon be a good fit for a consulting environment like Accenture?",
+    "question_es": "¿Por qué Jon podría ser un buen ajuste para un entorno de consultoría como Accenture?",
+    "answer": "Jon is well-suited for consulting environments due to his diverse experience across multiple sectors and company types. He's worked with international companies like ZARA and Gestamp (both IBEX35 companies), gaining experience in global projects and cross-cultural design. His portfolio spans SaaS, Fintech, E-commerce, Public Sector, Health-Tech, and Construction Technology. Jon has managed design systems for government departments, worked with startups and large corporations, and demonstrated the ability to quickly adapt to different team processes and deliver measurable results. His experience in multidisciplinary teams and agile methodologies makes him adaptable to various business contexts.",
+    "related_projects": ["zara-fashion", "gestamp-automotive", "o21-ehealth", "tacktics-construction"],
+    "key_metrics": ["10+ years experience", "Multiple sectors", "International companies", "Agile methodologies"],
+    "industries": ["consulting", "enterprise", "startup", "government", "healthcare", "fintech"]
+  },
+  {
+    "intent_key": "seniority_product_designer",
+    "question_en": "Is Jon a good fit for a Senior Product Designer role?",
+    "question_es": "¿Es Jon adecuado para un rol de Senior Product Designer?",
+    "answer": "Yes, Jon is well-suited for Senior Product Designer roles. He has worked as a Senior Product Designer for the last 3+ years and has the experience and skills required for senior positions. Jon has led complete product design processes from research to delivery, managed multidisciplinary teams, and delivered measurable business impact. His experience includes user research, information architecture, prototyping, user testing, and stakeholder management. Jon has worked on complex products across multiple industries, demonstrating his ability to handle senior-level responsibilities and deliver strategic design solutions.",
+    "related_projects": ["o21-ehealth", "gestamp-automotive", "zara-fashion"],
+    "key_metrics": ["3+ years Senior Product Designer", "Led complete design processes", "Managed multidisciplinary teams"],
+    "industries": ["healthcare", "automotive", "fashion-retail", "enterprise"]
+  },
+  {
+    "intent_key": "seniority_strategic_ux",
+    "question_en": "Does Jon have experience in strategic UX?",
+    "question_es": "¿Tiene Jon experiencia en UX estratégico?",
+    "answer": "Yes, Jon has developed strategic UX approaches across multiple projects. He focuses on strategic thinking that adds value to companies, as demonstrated in his work on O21 where he led product architecture and strategic design decisions. Jon understands the importance of aligning UX strategy with business goals, having worked on projects that improved consultation efficiency by 75% and increased user adoption by 45%. His strategic approach includes user research, information architecture, and design systems that scale across organizations. Jon's experience in both startups and enterprise environments gives him strategic perspective on how UX decisions impact business outcomes.",
+    "related_projects": ["o21-ehealth", "zara-fashion", "veridata-design-system"],
+    "key_metrics": ["+75% consultation efficiency", "+45% user adoption", "Strategic product architecture"],
+    "industries": ["healthcare", "enterprise", "government", "startup"]
+  },
+  {
+    "intent_key": "clients_startups",
+    "question_en": "Has Jon worked with startups?",
+    "question_es": "¿Ha trabajado Jon con startups?",
+    "answer": "Yes, Jon has worked with several startups including Wefender (cybersecurity), Tacktics (construction technology), and Appsamblea (startup collaboration platform). He's gained experience in fast-paced, innovative environments where he's delivered products that achieved significant user adoption and business impact. For example, at Wefender he increased user adoption by 45% and reduced support tickets by 60%. Jon understands startup culture, rapid prototyping, and the importance of user feedback in iterative development. His startup experience demonstrates his ability to work efficiently with limited resources while delivering high-quality design solutions.",
+    "related_projects": ["wefender-cybersecurity", "tacktics-construction", "appsamblea-startup"],
+    "key_metrics": ["+45% user adoption", "+60% support reduction", "Fast-paced development"],
+    "industries": ["cybersecurity", "construction", "startup", "collaboration"]
+  },
+  {
+    "intent_key": "clients_corporations",
+    "question_en": "What experience does Jon have with large corporations?",
+    "question_es": "¿Qué experiencia tiene Jon con grandes corporaciones?",
+    "answer": "Jon has worked with major corporations including Gestamp and ZARA (both IBEX35 companies), gaining experience in enterprise-level projects and corporate design processes. At ZARA, he led internal design system initiatives and collaborated with multidisciplinary teams of 12+ people. At Gestamp, he designed manufacturing platforms for automotive production, working with complex enterprise workflows and legacy system integration. Jon understands corporate processes, stakeholder management, and the challenges of implementing design solutions in large organizations. His enterprise experience demonstrates his ability to navigate complex corporate environments while delivering measurable design outcomes.",
+    "related_projects": ["zara-fashion", "gestamp-automotive"],
+    "key_metrics": ["IBEX35 companies", "Teams of 12+ people", "Enterprise workflows", "Legacy system integration"],
+    "industries": ["fashion-retail", "automotive", "enterprise", "manufacturing"]
+  },
+  {
+    "intent_key": "clients_public_sector",
+    "question_en": "Has Jon worked on projects for the public sector?",
+    "question_es": "¿Ha trabajado Jon en proyectos del sector público?",
+    "answer": "Yes, Jon has experience with public sector projects including Biscay Public Administration and the Madrid Pharmacists Association. At Biscay, he developed the front-end of government websites using accessibility standards, improving citizen portal usage by 40% and achieving WCAG 2.1 AA compliance. For the Pharmacists Association, he designed member services and resource platforms. Jon understands government compliance requirements, accessibility standards, and the unique challenges of serving diverse citizen populations. His public sector experience demonstrates his ability to work within regulatory frameworks while creating inclusive digital experiences.",
+    "related_projects": ["biscay-administration", "pharmacists-madrid"],
+    "key_metrics": ["+40% citizen portal usage", "WCAG 2.1 AA compliance", "Government standards"],
+    "industries": ["government", "public-sector", "healthcare", "accessibility"]
+  },
+  {
+    "intent_key": "clients_public_sector_role",
+    "question_en": "Have you worked on projects in the public sector? If so, what was your role?",
+    "question_es": "¿Has trabajado en proyectos del sector público? Si es así, ¿cuál fue tu rol?",
+    "answer": "Yes, Jon has worked on public sector projects including Biscay Public Administration and the Madrid Pharmacists Association. His role involved developing the front-end of government websites using accessibility standards, focusing on creating inclusive digital experiences for all citizens. Jon was responsible for UX design, frontend development, and ensuring compliance with government accessibility standards. He improved citizen portal usage by 40% and achieved WCAG 2.1 AA compliance. Jon's public sector work demonstrates his ability to balance technical requirements with accessibility needs while serving diverse citizen populations.",
+    "related_projects": ["biscay-administration", "pharmacists-madrid"],
+    "key_metrics": ["+40% citizen portal usage", "WCAG 2.1 AA compliance", "Frontend development", "Accessibility compliance"],
+    "industries": ["government", "public-sector", "accessibility", "frontend-development"]
+  },
+  {
+    "intent_key": "clients_tech_companies",
+    "question_en": "What types of companies does Jon collaborate with most?",
+    "question_es": "¿Con qué tipos de empresas colabora Jon principalmente?",
+    "answer": "Jon collaborates with a diverse range of companies across the technology spectrum. He works with technology startups (Wefender, Tacktics, Appsamblea), large corporations (ZARA/Inditex, Gestamp - both IBEX35 companies), public sector institutions (Biscay Government, Andalucia Government), educational organizations (University of San Jorge), financial services (La Caixa), and healthcare companies (O21). His experience spans from agile startups to enterprise-level corporations, with a strong focus on digital platforms and SaaS solutions. Jon's diverse client base demonstrates his adaptability and ability to work across different business models and industry verticals.",
+    "related_projects": ["wefender-cybersecurity", "tacktics-construction", "appsamblea-startup", "zara-fashion", "gestamp-automotive", "o21-ehealth"],
+    "key_metrics": ["Multiple sectors", "Startup to enterprise", "Digital platforms", "SaaS solutions"],
+    "industries": ["startup", "enterprise", "government", "healthcare", "fintech", "education"]
+  },
+  {
+    "intent_key": "skills_data_driven",
+    "question_en": "Does Jon have experience in data-driven projects?",
+    "question_es": "¿Tiene Jon experiencia en proyectos basados en datos?",
+    "answer": "Yes, Jon has experience in data-driven design projects where he uses metrics and analytics to inform design decisions. He's worked on projects that track user behavior, conversion rates, and engagement metrics. For example, at Pull&Bear he improved mobile conversion rates by 35% and at O21 he increased consultation efficiency by 75%. Jon understands how to use data to identify user pain points, measure design impact, and iterate on solutions. His data-driven approach includes user research, A/B testing, and analytics to ensure design decisions are backed by evidence rather than assumptions.",
+    "related_projects": ["pull-bear-inditex", "o21-ehealth", "evcharge"],
+    "key_metrics": ["+35% mobile conversion", "+75% consultation efficiency", "+39% charge completion"],
+    "industries": ["fashion-retail", "healthcare", "electric-mobility", "e-commerce"]
+  },
+  {
+    "intent_key": "skills_design_tools",
+    "question_en": "What design tools does Jon use?",
+    "question_es": "¿Qué herramientas de diseño usa Jon?",
+    "answer": "Jon primarily uses Figma for design work, along with other tools depending on project requirements. His toolset includes Figma for UI/UX design and prototyping, various user research methodologies, prototyping tools, and analytics platforms. Jon is proficient in creating wireframes, prototypes, and design systems using modern design tools. He also has experience with accessibility tools and testing platforms to ensure inclusive design. Jon's tool proficiency allows him to work efficiently across different design phases, from research and ideation to final implementation and testing.",
+    "related_projects": ["evcharge", "o21-ehealth", "zara-fashion"],
+    "key_metrics": ["Figma expertise", "Prototyping", "User research", "Accessibility tools"],
+    "industries": ["design", "ux", "ui", "prototyping"]
+  },
+  {
+    "intent_key": "skills_agile",
+    "question_en": "Does Jon have experience with agile methodologies?",
+    "question_es": "¿Tiene Jon experiencia con metodologías ágiles?",
+    "answer": "Yes, Jon has extensive experience with agile methodologies, particularly in his work at ZARA where he worked in agile squads delivering value every two weeks. He's experienced in rapid prototyping, iterative design processes, and collaborative development cycles. Jon understands how to work within agile frameworks, including sprint planning, user story development, and continuous delivery. His agile experience demonstrates his ability to work efficiently in fast-paced environments while maintaining design quality and user-centered focus. Jon's agile approach includes quick guerrilla research, interactive prototyping, and regular stakeholder feedback loops.",
+    "related_projects": ["zara-fashion", "o21-ehealth", "tacktics-construction"],
+    "key_metrics": ["Bi-weekly delivery cycles", "Agile squads", "Rapid prototyping", "Iterative design"],
+    "industries": ["fashion-retail", "healthcare", "construction", "enterprise"]
+  },
+  {
+    "intent_key": "skills_ux_research",
+    "question_en": "What experience does Jon have in UX research?",
+    "question_es": "¿Qué experiencia tiene Jon en investigación UX?",
+    "answer": "Jon has extensive experience in UX research across multiple projects and industries. He's conducted user interviews, usability testing, competitive analysis, and field research. For example, at Evcharge he interviewed 5 e-vehicle owners and tested prototypes with 5 V-electric users. At the University of San Jorge, he conducted research to understand different user roles (students, professors, researchers, alumni). Jon's research approach includes both qualitative and quantitative methods, from user interviews and field studies to analytics and A/B testing. He understands how to translate research insights into actionable design decisions that improve user experience.",
+    "related_projects": ["evcharge", "san-jorge-university", "o21-ehealth"],
+    "key_metrics": ["User interviews", "Usability testing", "Field research", "Competitive analysis"],
+    "industries": ["electric-mobility", "education", "healthcare", "user-research"]
+  },
+  {
+    "intent_key": "skills_frontend",
+    "question_en": "Does Jon have frontend development skills?",
+    "question_es": "¿Tiene Jon habilidades de desarrollo frontend?",
+    "answer": "Yes, Jon has frontend development skills, particularly demonstrated in his work for Biscay Public Administration where he developed the front-end of government websites using HTML, CSS, and JavaScript. He focuses on accessibility standards and creating inclusive digital experiences. Jon's frontend skills complement his design work, allowing him to understand technical constraints and create designs that are both beautiful and implementable. His experience includes responsive design, accessibility compliance, and working with development teams to ensure design fidelity. Jon's technical background helps bridge the gap between design and development teams.",
+    "related_projects": ["biscay-administration"],
+    "key_metrics": ["HTML/CSS/JavaScript", "Accessibility compliance", "Responsive design", "Government standards"],
+    "industries": ["government", "public-sector", "frontend-development", "accessibility"]
+  },
+  {
+    "intent_key": "company_fit_overview",
+    "question_en": "How can I assess if Jon fits my company?",
+    "question_es": "¿Cómo puedo evaluar si Jon se ajusta a mi empresa?",
+    "answer": "To assess if Jon fits your company, consider his diverse experience across multiple sectors and company types. Jon has worked with startups (Wefender, Tacktics), large corporations (ZARA, Gestamp), public sector institutions, and healthcare companies. He's experienced in both B2B and B2C products, design systems, and agile methodologies. Jon's adaptability is demonstrated by his ability to work across different industries and team sizes (3-12 people). To get a detailed fit analysis, use the Company Fit feature above - paste your job description and get an instant assessment of how Jon's skills and experience align with your specific role requirements.",
+    "related_projects": ["wefender-cybersecurity", "tacktics-construction", "zara-fashion", "gestamp-automotive"],
+    "key_metrics": ["Multiple sectors", "Startup to enterprise", "B2B and B2C", "Agile methodologies"],
+    "industries": ["startup", "enterprise", "government", "healthcare", "fintech"]
+  },
+  {
+    "intent_key": "project_query",
+    "question_en": "Can you tell me about Jon's projects?",
+    "question_es": "¿Puedes contarme sobre los proyectos de Jon?",
+    "answer": "Yes, I can tell you about Jon's projects! He has worked across multiple industries including healthcare (O21), electric mobility (Evcharge), fashion retail (ZARA, Pull&Bear), automotive (Gestamp), cybersecurity (Wefender), construction (Tacktics), and public sector (Biscay Administration). Jon's projects demonstrate his expertise in user research, design systems, mobile-first design, and enterprise UX. Each project includes measurable results like improved efficiency, increased adoption, and enhanced user satisfaction. To explore specific projects in detail, click on the Case Study card above, or ask me about particular sectors or project types you're interested in.",
+    "related_projects": ["o21-ehealth", "evcharge", "zara-fashion", "gestamp-automotive", "wefender-cybersecurity"],
+    "key_metrics": ["Multiple industries", "Measurable results", "User research", "Design systems"],
+    "industries": ["healthcare", "mobility", "fashion-retail", "automotive", "cybersecurity", "construction"]
+  }
+]
